@@ -1,0 +1,6 @@
+C:\Users\farneser\Documents\Говнокод\RiderProjects\LabHelpLibrary\HelpLibrary\bin\Debug\HelpLibrary.dll
+C:\Users\farneser\Documents\Говнокод\RiderProjects\LabHelpLibrary\HelpLibrary\bin\Debug\HelpLibrary.pdb
+C:\Users\farneser\Documents\Говнокод\RiderProjects\LabHelpLibrary\HelpLibrary\obj\Debug\HelpLibrary.csproj.AssemblyReference.cache
+C:\Users\farneser\Documents\Говнокод\RiderProjects\LabHelpLibrary\HelpLibrary\obj\Debug\HelpLibrary.csproj.CoreCompileInputs.cache
+C:\Users\farneser\Documents\Говнокод\RiderProjects\LabHelpLibrary\HelpLibrary\obj\Debug\HelpLibrary.dll
+C:\Users\farneser\Documents\Говнокод\RiderProjects\LabHelpLibrary\HelpLibrary\obj\Debug\HelpLibrary.pdb
