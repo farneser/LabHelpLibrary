@@ -319,6 +319,46 @@ namespace HelpLibrary
             Array.Copy(array, arr, array.Length);
             return arr;
         }
+        
+        public static void DeleteElementById<T>(ref T[] array, int index)
+        {
+            for (var i = index; i < array.Length - 1; i++) {
+                array[i] = array[i + 1];
+            }
+            array = array.Take(array.Length-1).ToArray();
+        }
+        
+        public static void DeleteFirstElement<T>(ref T[] array)
+        {
+            DeleteElementById(ref array, 0);
+        }
+
+        public static void DeleteLastElement<T>(ref T[] array)
+        {
+            DeleteElementById(ref array, array.Length - 1);
+        }
+        
+        public static void AddElementById<T>(ref T[] array, T element, int id)
+        {
+            var newArray = new T[((id >= array.Length) ? id + 1 : array.Length)];
+            for (var i = 0; i < array.Length; i++)
+            {
+                newArray[i] = array[i];
+            }
+
+            newArray[id] = element;
+            array = newArray;
+        }
+
+        public static void AddFirstElement<T>(ref T[] array,T element )
+        {
+            AddElementById(ref array, element, 0);
+        }
+        
+        public static void AddLastElement<T>(ref T[] array, T element)
+        {
+            AddElementById(ref array, element, array.Length - 1);
+        }
     }
 
     /// <summary>
